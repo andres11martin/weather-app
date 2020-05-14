@@ -1,38 +1,61 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  position: absolute
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body.dark-mode {
+  background-color: #1a1919;
+  color: #999;
+  transition: background-color 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body.light-mode {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.containerOne{
+  height: 45vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+img{
+  margin: -10px 0px -5px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 800px)  {
+
+  .App {
+    height: 95vh;
   }
-  to {
-    transform: rotate(360deg);
+  .weatherApp{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
+
+  .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .containerOne{
+    width: 60%;
+    margin-bottom: 10vh;
+  }
+
+  .containerTwo{
+    width: 40%;
+    height: 100%;
+  }
+
 }
+
+

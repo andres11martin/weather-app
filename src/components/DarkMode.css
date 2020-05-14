@@ -1,0 +1,13 @@
+.darkness {
+    width: 90%;
+    display: flex;
+    margin-left: 6vw;
+    margin-top: 5vh;
+    
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    border: 1px solid white;
+}

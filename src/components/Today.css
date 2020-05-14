@@ -1,0 +1,18 @@
+body.light-mode .todayBox{
+    background-color:#FFDAB9;
+    color: #333;
+  }
+
+  .todayBox{
+    width: 33vw;
+    height: 30vh;
+    justify-content: center;
+  }
+  @media (max-width:800px) {
+
+  .todayBox{
+    height: 60%;
+    display: flex;
+    width: 80%;
+  }
+}
