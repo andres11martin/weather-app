@@ -1,4 +1,4 @@
-#weather-app
+# weather-app
 
 This app was created using React!
 
